@@ -8,6 +8,7 @@ public class Product {
 	private String imageLink;
 	private String targetAge;
 	private String targetGender;
+	private Long idProduct;
 
 	public String getName() {
 		return name;
@@ -55,6 +56,14 @@ public class Product {
 
 	public void setTargetGender(String targetGender) {
 		this.targetGender = targetGender;
+	}
+
+	public Long getIdProduct() {
+		return idProduct;
+	}
+
+	public void setIdProduct(Long idProduct) {
+		this.idProduct = idProduct;
 	}
 
 }
